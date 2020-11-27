@@ -20,6 +20,8 @@ def main():
     tests = []
     for t in results["TEST"]:
         tests.append(Test(t.title, results["TEMPLATE"][0].attr, t.body))
-        
+
     print(tests[0])
+
+    
 main()
