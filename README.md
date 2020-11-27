@@ -7,7 +7,7 @@ A_Type with_a_name and_ some_ attributes_
 ```
 or
 ```
-A_Type with_a_name and_ some_ attributes_
+A_Type with_a_name and some attributes
 :START
 and a body!!
 :end
