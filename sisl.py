@@ -65,7 +65,7 @@ class Statement(object):
                         # While not the end of the body
                         while(lines[i].strip("\n") != ":END"):
                             # Append line to body
-                            body.append(lines[i])
+                            body.append(lines[i].strip("\n"))
                             
                             # Next line
                             i+= 1
