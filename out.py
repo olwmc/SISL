@@ -30,9 +30,30 @@ else:
 	exit(0)
 
 # Testing thing.getFav()
-if (thing.getFav() == 'Sports'):
+if (thing.getFav() == 'sports'):
 	print("PASS")
 else:
-	print("FAIL thing.getFav() !== 'Sports'")
+	print("FAIL thing.getFav() !== 'sports'")
+	exit(0)
+
+# Testing thing.getFav()
+if (thing.getFav() != 'Baking'):
+	print("PASS")
+else:
+	print("FAIL thing.getFav() !!= 'Baking'")
+	exit(0)
+
+# Testing thing.getAge()
+if (thing.getAge() <= 13):
+	print("PASS")
+else:
+	print("FAIL thing.getAge() !<= 13")
+	exit(0)
+
+# Testing thing.getName()
+if (thing.getName() != 'Nombre'):
+	print("PASS")
+else:
+	print("FAIL thing.getName() !!= 'Nombre'")
 	exit(0)
 

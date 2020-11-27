@@ -48,7 +48,7 @@ TEST SIMPLEOP_TEST
 :START
 thing.getName();==;'Name';
 thing.getAge();>=;13;
-thing.getFav();==;'Sports'
+thing.getFav();==;'sports'
 thing.getFav();!=;'Baking'
 thing.getAge();<=;13;
 thing.getName();!=;'Nombre';
