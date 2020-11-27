@@ -1,7 +1,7 @@
 # SISL
 Simple information sectioning language
 
-*"Like XML, but bad!"* -Unknown
+*"Like XML, but bad!"  -Unknown*
 
 Takes information in the form
 ```
