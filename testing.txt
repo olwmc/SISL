@@ -49,4 +49,7 @@ TEST SIMPLEOP_TEST
 thing.getName();==;'Name';
 thing.getAge();>=;13;
 thing.getFav();==;'Sports'
+thing.getFav();!=;'Baking'
+thing.getAge();<=;13;
+thing.getName();!=;'Nombre';
 :END
