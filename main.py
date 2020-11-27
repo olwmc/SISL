@@ -40,7 +40,7 @@ def main():
                 # Reset tempstr
                 tempstr = self.body 
             
-            # Return outstr
+            # Return
             return(outStr)
         
     # Get the only test, and the separator
