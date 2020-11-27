@@ -10,7 +10,7 @@ or
 A_Type with_a_name and some attributes
 :START
 and a body!!
-:end
+:END
 ```
 
 *"Like XML, but bad!"  -Unknown*
