@@ -58,3 +58,7 @@ Statement_3:
   attr = None
   body = None
 ```
+
+
+## Example
+unit_test_example.py is an example of what you can do. The program takes from the file "testing.txt" and generates unit tests for a class called `Thing`
