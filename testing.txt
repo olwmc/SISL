@@ -13,7 +13,23 @@ python out.py
 # Header to init object
 HEADER 0
 :START
-testObj = Thing("Name", 13, "sports")
+class Thing:
+	def __init__(self, name, age, fav_thing):
+		self.name = name
+		self.age = age
+		self.fav_thing = fav_thing
+	
+	def getName(self):
+		return self.name
+		
+	def getAge(self):
+		return self.age
+
+	def getFav(self):
+		return self.fav_thing
+
+thing = Thing("Name", 13, "sports")
+
 :END
 
 # First template
@@ -28,8 +44,9 @@ else:
 :END
 
 # First bit of testing
-TEST SIMPLEOP
+TEST SIMPLEOP_TEST
 :START
-Thing.getName();	==; "Name";
-Thing.getNumber();	>=; 13;
+thing.getName();==;'Name';
+thing.getAge();>=;13;
+thing.getFav();==;'Sports'
 :END
