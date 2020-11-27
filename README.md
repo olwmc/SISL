@@ -39,19 +39,19 @@ The program returns a python dictionary
 {"CODE": [Statement_1],
  "Meaning_of_life": [Statement_2, Statement_3]}
 
-Statement:
+Statement_1:
   kind = "CODE"
   name = "code_test"
   attr = ["number"]
   body = ['#include <stdio.h>\n', 'int main () { \n', '  int n = $number$;\n', '  print("%d\\n", n); \n', '  return 0; \n', '} \n']
  
-Statement:
+Statement_2:
   kind = "Meaning_of_life"
   name = "42"
   attr = None
   body = None
 
-Statement:
+Statement_3:
   kind = "Meaning_of_life"
   name = "100"
   attr = None
