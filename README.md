@@ -1,8 +1,9 @@
 # SISL
 Simple information sectioning language
 
-Takes information in the form
+*"Like XML, but bad!"* -Unknown
 
+Takes information in the form
 ```
 # Comment
 TYPE name attribute1 attribute2
