@@ -1,22 +1,19 @@
 # SISL
 Simple information sectioning language
 
-*"Like XML, but bad!"  -Unknown*
-
-Takes information in the form
+Fundamentally, there are only two types of statements in SISL
 ```
-# Comment
-TYPE name attribute1 attribute2
+A_Type with_a_name and_ some_ attributes_
+```
+or
+```
+A_Type with_a_name and_ some_ attributes_
 :START
-Here is the inside of the body
-This area is plaintext
-:END
+and a body!!
+:end
 ```
 
-Or, without a body
-```
-TYPE NAME ATTR1 ATTR2
-```
+*"Like XML, but bad!"  -Unknown*
 
 An example
 ```
