@@ -1,0 +1,35 @@
+# Separator for testing inputs
+SEP ;
+
+# Outfile name
+OUTFILE out.py
+
+# Outfile command
+CMD 0
+:START
+python out.py
+:END
+
+# Header to init object
+HEADER 0
+:START
+testObj = Thing("Name", 13, "sports")
+:END
+
+# First template
+TEMPLATE SIMPLEOP THING OP VALUE
+:START
+# Testing $THING$
+if ($THING$ $OP$ $VALUE$):
+	print("PASS")
+else:
+	print("FAIL $THING$ !$OP$ $VALUE$")
+	exit(0)
+:END
+
+# First bit of testing
+TEST SIMPLEOP
+:START
+Thing.getName();	==; "Name";
+Thing.getNumber();	>=; 13;
+:END
