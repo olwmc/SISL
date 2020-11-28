@@ -39,7 +39,7 @@ def add_entry(filename):
     # Write description
     f.write(":START\n")
     f.write(description + "\n")
-    f.write(":END\n")
+    f.write(":END\n\n")
 
     # Close
     f.close()
@@ -47,6 +47,8 @@ def add_entry(filename):
 def read_entries(filename):
     statements = Statement.make_statements(filename)
     for k in statements.keys():
-        print(k)
         for entry in statements[k]:
             print(entry)
+			
+add_entry("info.txt")
+read_entries("info.txt")
