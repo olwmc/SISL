@@ -3,7 +3,7 @@ Simple information sectioning language
 
 Fundamentally, there are only two types of statements in SISL
 ```
-A_Type with_a_name and_ some_ attributes_
+A_Type with_a_name and some attributes
 ```
 or
 ```
