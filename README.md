@@ -10,7 +10,7 @@ or
 A_Type with_a_name and some attributes
 :START
 and a body!!
-:end
+:END
 ```
 
 *"Like XML, but bad!"  -Unknown*
@@ -59,3 +59,5 @@ Statement_3:
 
 ## Example
 unit_test_example.py is an example of what you can do. The program takes from the file "testing.txt" and generates and runs unit tests for a class called `Thing`
+
+encyclopedia.py is an example of how you may build a quick and dirty information collection program, maybe for dungeons and dragons or another situation where bulk information is important.
