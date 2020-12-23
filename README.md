@@ -21,11 +21,11 @@ Meaning_of_life 100
 CODE code_test number
 :START
 #include <stdio.h>
-  int main () { 
-    int n = $number$;
-    print("%d\n", n); 
-    return 0; 
-  } 
+int main () { 
+int n = $number$;
+print("%d\n", n); 
+return 0; 
+} 
 :END
 ```
 
