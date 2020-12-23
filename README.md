@@ -13,8 +13,6 @@ and a body!!
 :END
 ```
 
-*"Like XML, but bad!"  -Unknown*
-
 An example
 ```
 Meaning_of_life 42
